@@ -8,12 +8,12 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_PROJECT.firebaseapp.com",
-      projectId: "YOUR_PROJECT_ID",
-      storageBucket: "YOUR_PROJECT.appspot.com",
-      messagingSenderId: "YOUR_SENDER_ID",
-      appId: "YOUR_APP_ID",
+      apiKey: "AIzaSyCJkTKfYtwfRZK1iMbuRITkyVLte9L0wEk",
+      authDomain: "my-chat-app-fd7a5.firebaseapp.com",
+      projectId: "my-chat-app-fd7a5",
+      storageBucket: "my-chat-app-fd7a5.firebasestorage.app",
+      messagingSenderId: "494751576132",
+      appId: "1:494751576132:web:5cdfffa3fc726662180c11",
     ),
   );
   runApp(
